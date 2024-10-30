@@ -1,0 +1,63 @@
+.here-ctrl-group:not(:empty) {
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.here-ctrl-group {
+    margin: 10px 10px 0 0;
+    float: right;
+}
+.here-ctrl-group {
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+}
+.here-ctrl {
+    clear: both;
+    pointer-events: auto;
+}
+
+.here-ctrl-group > button + button {
+    border-top: 1px solid #ddd;
+}
+.here-ctrl-group button {
+    width: 25px;
+    height: 25px;
+    margin: 2px 0 0 2px;
+}
+.here-ctrl-group > button {
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding: 0;
+    outline: none;
+    border: 0;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.here-ctrl-group button {
+	width: 25px;
+	height: 25px;
+	margin: 2px 0 0 2px;
+}
+
+.map_control { background: url("images/map_control.png") no-repeat scroll 0 0 transparent; }
+.map_center  { background: url("images/map_center.png")  no-repeat scroll 0 0 transparent; }
+.map_geocode { background: url("images/map_geocode.png") no-repeat scroll 0 0 transparent; }
+
+.H_ib_body {
+	background: white !important;
+	color: black !important;
+    	font-family: Roboto, Arial, sans-serif !important;
+	max-width: 200px !important;
+	font-size: 12px;
+}
+
+.H_ib_body svg.H_icon {
+	fill: #000 !important;
+}

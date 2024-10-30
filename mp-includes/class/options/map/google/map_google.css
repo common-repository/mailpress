@@ -1,0 +1,46 @@
+.google-ctrl {
+    clear: both;
+    pointer-events: auto;
+}
+
+.google-ctrl-group {
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.google-ctrl {
+    margin: 10px 10px 0 0;
+    float: right;
+}
+
+.google-ctrl-group:not(:empty) {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.google-ctrl-group button {
+	width: 25px;
+	height: 25px;
+	margin: 2px 0 0 2px;
+    display: block;
+    padding: 0;
+    outline: none;
+    border: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.google-ctrl-group > button + button {
+	border-top: 1px solid #ddd;
+}
+
+.map_control  { background: url("images/map_control.png") no-repeat scroll 0 0 transparent; }
+.map_center   { background: url("images/map_center.png")  no-repeat scroll 0 0 transparent; }
+.map_geocode  { background: url("images/map_geocode.png") no-repeat scroll 0 0 transparent; }
+
+
+
+
+
+

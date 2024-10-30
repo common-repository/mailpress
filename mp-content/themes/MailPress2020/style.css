@@ -1,0 +1,17 @@
+/*
+Theme Name: MailPress2020 Theme
+Theme URI: 
+Description: theme 2020.
+Version: beta
+Author: Andre Renaut
+Author URI: mailpress.org
+Template: _template
+*/
+p {
+	line-height:1.4em;
+	font-size:0.85em;
+}
+
+a.more-link {
+	color:#e9b55f;
+}

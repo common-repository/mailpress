@@ -1,0 +1,1 @@
+<?php // connection_null

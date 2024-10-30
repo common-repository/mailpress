@@ -1,0 +1,73 @@
+/* mp-meta-box-post-test */
+
+
+#MailPress_minor-publishing-actions {
+	padding: 10px 10px 0 10px;
+	position:relative;
+
+}
+
+#MailPress_minor-publishing-actions div.mp-left {
+	float:left;
+}
+
+#MailPress_post_test_div .inside {
+	padding : 0;
+}
+
+#MailPress_post_test_loading {
+	position:absolute;
+	opacity:0;
+	filter:alpha( opacity=0 );
+}
+
+#MailPress_post_test_loading img {
+	padding-right:5px;
+}
+
+#MailPress_post_test_ajax {
+	position:relative;
+}
+
+#MailPress_post_test_button {
+	min-width:80px;
+	text-align:center;
+	float: right;
+}
+
+#MailPress_post_test_misc {
+	padding:6px 0 16px;
+}
+
+#MailPress_post_test_misc .misc-pub-mp-toemail::before, #MailPress_post_test_misc .misc-pub-mp-newsletter::before, #MailPress_post_test_misc .misc-pub-mp-theme::before {
+	font: normal 20px/1 dashicons;
+	color: #82878c;
+	speak: none;
+	display: inline-block;
+	margin-left: -1px;
+	padding-right: 3px;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#span_toemail, #span_newsletter, #span_theme {
+	font-weight: 600;
+}
+
+
+#mp_toemail {
+	width:240px;
+}
+
+.misc-pub-mp-toemail::before {
+    content: "\f465";
+}
+
+.misc-pub-mp-newsletter::before {
+    content: "\f232";
+}
+
+.misc-pub-mp-theme::before {
+    content: "\f100";
+}

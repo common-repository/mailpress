@@ -1,0 +1,23 @@
+.mapboxgl-ctrl-group button {
+	width: 25px;
+	height: 25px;
+	margin: 2px 0 0 2px;
+}
+
+.marker {
+    background-image: url('images/icon.png');
+    background-size: cover;
+    width: 27px;
+    height: 43px;
+    cursor: pointer;
+}
+.mapboxgl-popup {
+    max-width: 200px;
+}
+.mapboxgl-popup-content {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.map_control { background: url("images/map_control.png") no-repeat scroll 0 0 transparent; }
+.map_center  { background: url("images/map_center.png")  no-repeat scroll 0 0 transparent; }
+.map_geocode { background: url("images/map_geocode.png") no-repeat scroll 0 0 transparent; }

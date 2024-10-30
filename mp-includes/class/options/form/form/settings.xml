@@ -1,0 +1,88 @@
+<!-- form -->
+<?php
+
+
+$becomes_subscriber = 	array(	0 => __( 'no', 'MailPress' ),
+				1 => __( 'not active', 'MailPress' ),
+				2 => __( 'to be confirmed', 'MailPress' ),
+				3 => __( 'active', 'MailPress' ),
+);
+$gets_copy = 		array(	0 => __( 'no', 'MailPress' ),
+				1 => __( 'to be confirmed', 'MailPress' ),
+				2 => __( 'yes', 'MailPress' ),
+);
+
+?>
+<settings>
+	<attributes>
+		<tab><![CDATA[<?php _e( 'Attributes', 'MailPress' ); ?>]]></tab>
+		<help><![CDATA[<p><?php _e( 'Html attributes to be included in that field.', 'MailPress' ); ?></p>]]></help>
+		<items>
+			<class>
+				<text>
+					<size>40</size>
+					<style>width:80%;</style>
+				</text>
+			</class>
+		</items>
+		<items>
+			<style>
+				<text>
+					<size>40</size>
+					<style>width:80%;</style>
+				</text>
+			</style>
+		</items>
+		<items>
+			<misc>
+				<size>40</size>
+				<style>width:98%;</style>
+				<misc><![CDATA[<?php _e( "other attributes except 'name' & 'action'", 'MailPress' ); ?>]]></misc>
+			</misc>
+		</items>
+	</attributes>
+	<options>
+		<tab><![CDATA[<?php _e( 'Options', 'MailPress' ); ?>]]></tab>
+		<help><![CDATA[<p><?php _e( 'If you want this form to have all fields reset after submission', 'MailPress' ); ?>]]></help>
+		<items>
+			<reset>
+				<checkbox>
+					<text><![CDATA[<?php _e( 'In copy', 'MailPress' ); ?>]]></text>
+					<value>1</value>
+					<disabled>0</disabled>
+				</checkbox>
+			</reset>
+		</items>
+	</options>
+	<messages>
+		<tab><![CDATA[<?php _e( 'Messages', 'MailPress' ); ?>]]></tab>
+		<help><![CDATA[<p><?php _e( 'If you want this form to have all fields reset after submission', 'MailPress' ); ?>]]></help>
+		<items>
+			<ok>
+				<size>40</size>
+				<style>width:98%;</style>
+				<misc><![CDATA[<?php _e( "When processing form is successful", 'MailPress' ); ?>]]></misc>
+			</ok>
+		</items>
+		<items>
+			<ko>
+				<size>40</size>
+				<style>width:98%;</style>
+				<misc><![CDATA[<?php _e( "When processing form has failed", 'MailPress' ); ?>]]></misc>
+			</ko>
+		</items>
+
+	</messages>
+	<visitor>
+		<tab><![CDATA[<?php _e( 'Visitor', 'MailPress' ); ?>]]></tab>
+		<help><![CDATA[<p><?php _e( 'If you want this form to have all fields reset after submission', 'MailPress' ); ?>]]></help>
+		<items>
+		</items>
+	</visitor>
+	<recipient>
+		<tab><![CDATA[<?php _e( 'Visitor', 'MailPress' ); ?>]]></tab>
+		<help><![CDATA[<p><?php _e( 'If you want this form to have all fields reset after submission', 'MailPress' ); ?>]]></help>
+		<items>
+		</items>
+	</recipient>
+</settings>
